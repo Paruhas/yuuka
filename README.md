@@ -1,8 +1,8 @@
-# Blue Archive Misaki Live 2D
-Blue Archive Misaki Live 2D running on web at 4K 144 fps.
+# Blue Archive Yuuka Live 2D
+Blue Archive Yuuka Live 2D running on web at 4K 144 fps.
 Running at [misaki.milkto.coffee](https://misaki.milkto.coffee)
 
-![Misaki](https://raw.githubusercontent.com/SaltyAom/akane/main/assets/akane%402x.jpg)
+![Yuuka](https://raw.githubusercontent.com/SaltyAom/akane/main/assets/akane%402x.jpg)
 
 Disclaimer: I do not own this Live 2D and illustration, nor I own this.
 The media is from the game [Blue Archive](https://bluearchive.jp).

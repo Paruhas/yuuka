@@ -1,5 +1,5 @@
 
-Aru_home.png
+Misaki_home.png
 size: 2048,2048
 format: RGBA8888
 filter: Linear,Linear
@@ -810,7 +810,7 @@ window frame_02
   offset: 0, 0
   index: -1
 
-Aru_home2.png
+Misaki_home2.png
 size: 2048,1024
 format: RGBA8888
 filter: Linear,Linear

@@ -175,7 +175,7 @@ function resize() {
     let height = canvas.height * scale
 
     mvp.ortho2d(centerX - width / 2, centerY - height / 2, width, height)
-    gl.viewport(0, -100, canvas.width, canvas.height)
+    gl.viewport(0, 100, canvas.width, canvas.height)
 }
 
 init()

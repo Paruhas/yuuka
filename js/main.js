@@ -10,10 +10,10 @@ let lastFrameTime
 let spineData
 let fps
 
-const BINARY_PATH = '/assets/Aru_newyear_home.skel'
-const ATLAS_PATH = '/assets/Aru_newyear_home.atlas'
+const BINARY_PATH = '/assets/Aru_home.skel'
+const ATLAS_PATH = '/assets/Aru_home.atlas'
 const WELCOME_ANIMATION = 'Start_Idle_01'
-const LOOPING_ANIMATION = 'Idle_02'
+const LOOPING_ANIMATION = 'Dev_Idle_02'
 
 let customScale = 1.8
 let targetFps = 144

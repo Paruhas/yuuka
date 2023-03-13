@@ -914,15 +914,4 @@ repeat: none
   offset: 0, 0
   index: -1
 
-Hina_home3.png
-size: 512,512
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-multiply/Down_Light_00
-  rotate: false
-  xy: 2, 160
-  size: 500, 342
-  orig: 500, 342
-  offset: 0, 0
-  index: -1
+

@@ -15,7 +15,7 @@ const ATLAS_PATH = '/assets/Misaki_home.atlas'
 const WELCOME_ANIMATION = 'Start_Idle_01'
 const LOOPING_ANIMATION = 'Idle_01'
 
-let customScale = 2.4
+let customScale = 2.2
 let targetFps = 144
 
 function init() {
@@ -175,7 +175,7 @@ function resize() {
     let height = canvas.height * scale
 
     mvp.ortho2d(centerX - width / 2, centerY - height / 2, width, height)
-    gl.viewport(0, 0, canvas.width, canvas.height)
+    gl.viewport(0, 0, canvas.width, canvas.height-100)
 }
 
 init()

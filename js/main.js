@@ -164,7 +164,7 @@ function resize() {
 
     // Calculations to center the skeleton in the canvas.
     let bounds = spineData.bounds
-    let centerX = bounds.offset.x + bounds.size.x / 2 
+    let centerX = bounds.offset.x + bounds.size.x / 2
     let centerY = bounds.offset.y + bounds.size.y / 2
     let scaleX = bounds.size.x / canvas.width
     let scaleY = bounds.size.y / canvas.height
@@ -174,8 +174,8 @@ function resize() {
     let width = canvas.width * scale
     let height = canvas.height * scale
 
-    mvp.ortho2d(centerX - width / 2, centerY - height / 2 -100, width, height)
-    gl.viewport(0, -100, canvas.width, canvas.height)
+    mvp.ortho2d(centerX - width / 2, centerY - height / 2, width, height)
+    gl.viewport(0, 0, canvas.width, canvas.height)
 }
 
 init()

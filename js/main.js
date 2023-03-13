@@ -164,7 +164,7 @@ function resize() {
 
     // Calculations to center the skeleton in the canvas.
     let bounds = spineData.bounds
-    let centerX = bounds.offset.x + bounds.size.x / 2 -100
+    let centerX = bounds.offset.x + bounds.size.x / 2 /2
     let centerY = bounds.offset.y + bounds.size.y / 2
     let scaleX = bounds.size.x / canvas.width
     let scaleY = bounds.size.y / canvas.height

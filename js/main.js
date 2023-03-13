@@ -32,7 +32,7 @@ function init() {
     canvas = document.getElementById('canvas')
     canvas.width = window.innerWidth
     canvas.height = window.innerHeight
-    let config = { alpha: false }
+    let config = { alpha: true }
     gl =
         canvas.getContext('webgl', config) ||
         canvas.getContext('experimental-webgl', config)
@@ -59,7 +59,7 @@ function init() {
 function load() {
     // Wait until the AssetManager has loaded all resources, then load the skeletons.
     if (assetManager.isLoadingComplete()) {
-        spineData = loadSpineData(true)
+        spineData = loadSpineData(false)
         lastFrameTime = Date.now() / 1000
         requestAnimationFrame(render) // Loading is done, call render every frame.
     } else {

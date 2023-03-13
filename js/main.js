@@ -15,7 +15,7 @@ const ATLAS_PATH = '/assets/Misaki_home.atlas'
 const WELCOME_ANIMATION = 'Start_Idle_01'
 const LOOPING_ANIMATION = 'Idle_01'
 
-let customScale = 0.85
+let customScale = 1.0
 let targetFps = 144
 
 function init() {

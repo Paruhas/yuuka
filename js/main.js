@@ -59,7 +59,7 @@ function init() {
 function load() {
     // Wait until the AssetManager has loaded all resources, then load the skeletons.
     if (assetManager.isLoadingComplete()) {
-        spineData = loadSpineData(false)
+        spineData = loadSpineData(true)
         lastFrameTime = Date.now() / 1000
         requestAnimationFrame(render) // Loading is done, call render every frame.
     } else {
